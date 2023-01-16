@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+
+.header__nav {
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;  
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.header__logo {
+    width: 120px;
+    height: 151px;
+}
+
+.header__list {
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+}
+
+.header__item {
+    list-style: none;
+}
+
+.header__link {
+    color: #8C8A8A;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    transition: 0.3s;
+}
+
+.header__link:hover {
+    color: rgb(101, 37, 239);
+}
+
+.header__content img {
+    width: 100%;
+    height: 450px;
+    margin: 38px 0 30px 0;
+}
+
+.about__block {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.section__first {
+    background: #F0F0F0;
+    width: 730px;
+}
+
+.section__second {
+    background: #F0F0F0;
+    width: 350px;
+}
+
+.about {
+    color: #4581B7;
+    font-style: 20px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    padding: 50px 0 25px 40px;
+}
+
+.aboutbuy {
+    
+    color: #808080;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    padding: 25px 0 51px 40px;
+}
+
+
+
+.info {
+    height: 23px;
+    color: #4581B7;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    padding: 50px 0 25px 40px;
+}
+
+.about__info-text {
+    color: #808080;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    padding: 25px 24px 0px 40px;
+    text-align: inherit;
+}
+
+#text-number {
+    color: #808080;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    padding: 30px 0 0 40px;
+}
+#text-email{
+    color: #808080;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    padding: 60px 0 0 40px;
+}
+.footer{
+    background: #F0F0F0;
+}
+
+.end {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fotlogo {
+    width: 254px;
+    height: 120px;
+    margin:15px 0 ;
+}
+
+.prenumber {
+    /* height: 19px; */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #808080;
+
+}
+
+.number {
+    width: 205px;
+    height: 29px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    color: #808080;
+    text-decoration: none;
+}
